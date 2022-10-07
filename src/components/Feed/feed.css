@@ -1,0 +1,7 @@
+.div-button-publish {
+  display: none;
+}
+
+.comment-area:focus-within .div-button-publish {
+  display: unset;
+}

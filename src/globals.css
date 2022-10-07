@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px #00875e96;
+  transition: .15s;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #121214;
+  color: #E1E1E6;
+}

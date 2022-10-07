@@ -1,0 +1,9 @@
+.bgProfile {
+  background-image: url(../../../public/react2.png);
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  height: 4.5rem;
+  width: 16rem;
+}
