@@ -3,6 +3,7 @@ import { Profile } from "./components/Profile/Profile";
 import { Feed } from "./components/Feed/Feed";
 
 import "./globals.css"
+import { Comments } from "./components/Comments/Comments";
 
 export function App() {
 
@@ -11,7 +12,7 @@ export function App() {
       <Header />
       <div className="flex justify-between py-8 px-28">
         <Profile />
-        <Feed />
+          <Feed />
       </div>
     </>
   );

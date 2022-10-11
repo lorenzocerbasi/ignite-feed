@@ -1,9 +1,10 @@
+import { Comments } from "../Comments/Comments";
 import "./feed.css"
 
 export function Feed() {
   return (
     <>
-      <div className="bg-[#202024] w-full rounded-md py-9">
+      <div className="bg-[#202024] w-full rounded-md py-9 flex flex-col">
         <div className="flex items-center justify-between px-9">
           <div className="flex items-center">
             <img
@@ -27,12 +28,19 @@ export function Feed() {
         <form className="px-9">
           <div className="flex flex-col comment-area">
             <strong className="mb-3">Deixe seu feedback</strong>
-            <textarea className="bg-[#121214] border border-principal rounded-lg resize-none p-3 text-sm h-20 mb-4 text-[#C4C4CC]" />
+            <textarea
+              className="bg-[#121214] border border-principal rounded-lg resize-none p-3 text-sm h-20 mb-4 text-[#C4C4CC]"
+              placeholder="Escreva um comentário..."
+            />
             <div className="div-button-publish">
               <button className="button-publish bg-principal px-5 py-2 rounded-md transition-all hover:bg-principal-escuro font-medium">Publicar</button>
             </div>
           </div>
         </form>
+        <div className="flex flex-col items-between justify-center px-9">
+          <Comments nome="Lorenzo Cerbasi" comentario="Parabéns, gostei muito!! Continue assim, bora pra cima."/>
+          <Comments nome="Carlos Alberto" comentario="Ótima maneira de praticar a lógica. Parabéns!!"/>
+        </div>
       </div>
     </>
   );
