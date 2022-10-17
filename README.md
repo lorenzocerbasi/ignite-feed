@@ -1,5 +1,7 @@
 # Ignite Feed
 
+`Não foi feito o responsivo desse projeto, pois, já sei sobre responsivo, meu foco é me aprimorar mais com React`
+
 ## Estratégia usada para o Desenvolvimento
 Desenvolvi esse projeto, acompanhando o curso Ignite da Rocketseat.
 Porém, com algumas alterações e com um método para treinar a lógica.

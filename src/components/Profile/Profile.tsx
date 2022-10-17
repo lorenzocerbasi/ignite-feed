@@ -1,5 +1,6 @@
 import styles from "./profile.module.css"
 import { PencilSimpleLine } from "phosphor-react"
+import { Avatar } from "../Avatar/Avatar";
 
 export function Profile() {
 
@@ -8,11 +9,8 @@ export function Profile() {
     <>
       <div className="bg-[#202024] rounded-lg flex flex-col items-center text-center mr-8 h-full">
         <div className={styles.bgProfile} />
-        <div className="flex flex-col items-center">
-          <img
-            src="https://avatars.githubusercontent.com/u/88165487?v=4"
-            className="rounded-full h-20 w-20 border-4 border-[#202024] outline outline-3 outline-principal mt-[-35px]"
-          />
+        <div className="flex flex-col items-center mt-4">
+          <Avatar hasBorder src="https://avatars.githubusercontent.com/u/88165487?v=4" />
         </div>
         <div className="mt-4 pb-7">
           <p className="font-bold">Lorenzo Cerbasi</p>

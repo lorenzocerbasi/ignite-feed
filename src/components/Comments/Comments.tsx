@@ -1,13 +1,11 @@
 import { ThumbsUp, Trash } from "phosphor-react";
+import { Avatar } from "../Avatar/Avatar";
 
 export function Comments(props:any) {
   return (
     <>
       <div className="mt-5 flex w-full">
-        <img
-          src="https://avatars.githubusercontent.com/u/88165487?v=4"
-          className="rounded-full h-14 w-14"
-        />
+        <Avatar src="https://avatars.githubusercontent.com/u/88165487?v=4" />
         <div className="ml-3 w-full">
           <div className="bg-[#29292E] w-full p-4 rounded-lg">
             <div className="flex justify-between w-full">

@@ -1,3 +1,4 @@
+import { Avatar } from "../Avatar/Avatar";
 import { Comments } from "../Comments/Comments";
 import "./feed.css"
 
@@ -7,10 +8,7 @@ export function Feed() {
       <div className="bg-[#202024] w-full rounded-md py-9 flex flex-col">
         <div className="flex items-center justify-between px-9">
           <div className="flex items-center">
-            <img
-              src="https://avatars.githubusercontent.com/u/88165487?v=4"
-              className="rounded-full h-14 w-14 border-4 border-[#202024] outline outline-3 outline-principal"
-            />
+            <Avatar hasBorder src="https://avatars.githubusercontent.com/u/88165487?v=4" />
             <div className="flex flex-col ml-3">
               <p className="text-[#E1E1E6] text-base font-bold">Lorenzo Cerbasi</p>
               <p className="text-[#8D8D99] text-md">Desenvolvedor Front End</p>
